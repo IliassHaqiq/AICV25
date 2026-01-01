@@ -2149,7 +2149,7 @@ const Photos: React.FC = () => {
 
   return (
     <div className="photos-container">
-      <h1 className="photos-title">AISDS' 25 Conference Photo Gallery</h1>
+      <h1 className="photos-title">AISDS'25 Conference Photo Gallery</h1>
       <div className="photo-grid">
         {bannerImages.map((image, index) => {
           const isLoaded = loadedImages[index] || false;
@@ -2333,7 +2333,7 @@ const PhotosAICV: React.FC = () => {
 
   return (
     <div className="photos-container">
-      <h1 className="photos-title">AICV' 23 Conference Photo Gallery</h1>
+      <h1 className="photos-title">AICV'23 Conference Photo Gallery</h1>
       <div className="photo-grid">
         {bannerImages.map((image, index) => {
           const isLoaded = loadedImages[index] || false;
