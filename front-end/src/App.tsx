@@ -2479,7 +2479,7 @@ const App: React.FC = () => {
   useVisitorTracking();
 
   return (
-    <Router basename="/AISDS25">
+    <Router>
       <div className="app-container">
         {/* Remove VisitorStats component - tracking still happens via useVisitorTracking hook */}
         <div className={`menu-overlay ${isMenuOpen ? 'active' : ''}`} onClick={() => setIsMenuOpen(false)}></div>
